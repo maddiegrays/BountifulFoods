@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Bountiful Foods</title>
-    <meta name="description" content="This is the home Page ">
-<link rel="stylesheet" href="fresh.css">
+    <meta name="description" content="This is the smoothie ">
+<link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="favicon/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
@@ -19,20 +19,10 @@
 <body onload="currentDate()">
 
     <script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=134538"></script>
-
-    <header>
-      
-      
-      
-        <picture>
-            <img class="header-icon" src="" alt="logo">
-        </picture>
-        <section class="heading">
-            <h1></h1>
-            <div class="motto"></div>
-        </section>
-
-    </header>
+    <link rel="stylesheet" href="fresh.css">
+</head>
+<body>
+    
 
 
 
@@ -48,99 +38,102 @@
             </ul>
         </nav>
 
-    </div>
-    <br>
-    <main>
-
-
-
         <section>
             <!--add images-->
             <picture>
                 <source class="hero" media="" srcset="images/440x220.jpg">
                 <source media="(min-width: 435px) and (max-width:650px)" srcset="images/700x350.jpg">
                 <source media="(min-width: 651px)" srcset="images/largeview1200x400.jpg">
-                <a href=""><img src="banner.png" alt="Sammamish Chamber of Commerce Logo"></a>
+                <a href=""><img src="drink.jpg" alt="Smoothies"></a>
                 
             </picture>
+
+
+
+
+
+
+    <main>
+        <h2 id="jointitle">Order Your Smoothie Today!</h2>
+        <div id="join-main">
+        <div>
+            <form action="thankyou.html" method="get">
+            <label for="fname">First Name *<br>
+                <input type="text" id="fname" name="fname" required>
+            </label>
+            <label for="lname">Last Name *<br>
+                <input type="text" id="lname" name="lname" required>
+            </label>
+            <label for="email">Email *<br>
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+            </label>
+            <label for="phone">Phone Number *<br>
+                <input type="tel" id="phone" name="phone" required>
+            </label>
+            <div><hr></div>
             
-            <div class="weathersummary">
-
-                <h2>Our Weather Today</h2>
-                <hr>
-                <p>Current Condition: Sunny <span id="weather"></span></p>
-                <p>Temperature: <span id="temp"></span> 70°F</p>
-                <p>Feels Like: <span id="feelslike"></span> 76°F</p>
-                <p>Humidity: <span id="humidity"></span> 40%</p>
-
-               
-
-
-
-                
-            </div>
-        </section>
-        <section>
-            
-
-                </div>
-
-
-
-               
-
-                </div>
-
-
-
-               
-                </div>
-
-
-            </div>
-
-        </section>
-
-        <div class="h4">
-                   
-                
-            <h4>Try our all new smooties made fresh everyday! </h4>
-        </div>
-<div  class="button">
-    
-    
-    <button class="button">Try Now!</button>
-
-
-</div>
-
-
-        <section>
-            <div class="drinks">
-                <h2></h2> 
-                <a href=""><img src="smoothi.png" alt="Sammamish Chamber of Commerce Logo"></a>
-               
-                <p> </p>
-                <p></p>
-
            
-            </div>
-        </section>
-        
-
-       
+            <label for="membership">Add Fruit <br>
+                <select name="membership" id="membership">
+                    <option>Select</option>
+                    <option value="np">Apple</option>
+                    <option value="">Apricot</option>
+                    <option value="silver">Avocado</option>
+                    <option value="gold">Banana</option>
+                    <option value="gold">Peach</option>
+                    <option value="gold">Mango</option>
+                    <option value="gold">Strawberry</option>
+                    <option value="gold">Cherry</option>
+                </select>
+            </label>
+            <label for="subdate">
+                <input type="hidden" id="subdate" name="subdate">
+            </label>
+            <label for="submit">
+                <input type="submit" id="submit" value="Order">
+            </label>
+            </form>
+        </div>
+        <div>
+        <table>
+            
+            <thead>
+                <tr>
+               
+                </tr>
+                <tr>
+                    
+                </tr>
+            </thead>
+            
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        </div>
+    </main>
     <footer>
 
 
 
         <div>
+            <div>
+
+                <a class="social" href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png"
+                        alt="Twiter logo"></a>
+                <a class="social" href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"
+                        alt="Facebook logo"></a>
+                <a class="social" href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png"
+                        alt="YouTube logo"></a>
+            </div>
+
             <h3>Contact Us</h3>
           
             <p><span></span></p>
             <p><span></span>(442) 888-7895</p>
             <p><span></span>Bountiful Foods.com</p>
         </div>
-        <!--$12.00/year(Google Domains)-->
+        
         <div>
 
             
