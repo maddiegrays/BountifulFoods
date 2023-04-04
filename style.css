@@ -196,7 +196,7 @@ h3 {
     text-align: center;
     background-color: white;
     color: black;
-    padding: 100px;
+    padding: 20px;
     font-size: 50px;
    
 }
@@ -214,7 +214,7 @@ h3 {
     height: 50px;
     font-size: 30px;
     font-weight: 700;
-    margin: auto;
+   margin: auto;
 }
 
 .h4 {
@@ -786,3 +786,10 @@ footer {
         text-align: center;
     }
 }
+
+
+
+
+
+
+
