@@ -386,7 +386,7 @@ img.city {
 }
 
 .continue-reading {
-    color: blue;
+    color: white;
 }
 
 .demographics {
@@ -1001,7 +1001,7 @@ html, body {
 
 /* Header Elements */
 header {
-   background-color: #0a70bd;
+   background-color: white;
 	display: grid;
     grid-template-columns: 5fr 1fr 1fr;
 	align-items: center;
@@ -1121,7 +1121,7 @@ main h2 {
 
 }
 header {
-    background-color: #0a70bd;
+    background-color: #ffffff;
     display: grid;
    grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
@@ -1226,7 +1226,7 @@ table {
     /* overflow-x: auto;
     display: block; */
 }
-
+ƒ
 caption {
     padding: 10px;
     caption-side: bottom;
