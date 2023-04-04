@@ -31,9 +31,9 @@ header h1 {
 
 div.motto {
     font-size: 25px;
-    font-style: italic;
-    color: #D00000;
-
+    font-style: bold;
+    color: black;
+    text-align: center;
 }
 
 image.header-icon {
@@ -196,8 +196,9 @@ h3 {
     text-align: center;
     background-color: white;
     color: black;
-    padding: 100px;
+    padding: 10px;
     font-size: 50px;
+    margin-top: 200px;
    
 }
 .button{
@@ -406,7 +407,7 @@ img.city {
     color: white;
     padding: 10px;
     text-align: left;
-    border: 1px solid #FCA311;
+    border: 1px solid #000000;
 
 }
 
@@ -496,7 +497,7 @@ textarea#description.descriptionBox{
 input.button {
     display: grid;
     border: none;
-    background-color: #FCA311;
+    background-color: #000000;
     color: black;
     padding: .75rem 1.5rem;
     margin: auto;
@@ -1192,7 +1193,7 @@ form {
 
 form label {
     margin: 10px;
-    color:  #FFD052;
+    color:  #000000;
 }
 
 form input, textarea, select {
@@ -1211,7 +1212,7 @@ form input, textarea, select {
 
 #submit {
     padding: 0.6em;
-    background-color: #FFD052;
+    background-color: #000000;
     border: none;
     width: 100%;
     color: white;
@@ -1240,7 +1241,7 @@ td {
 }
 
 th {
-	background-color: #FFD052;
+	background-color: #000000;
     border: 2px solid black;
     font-size: 1em;
     color: white;
@@ -1252,7 +1253,7 @@ thead th{
 }
 
 th:first-child {
-    background-color: #FFD052;
+    background-color: #000000;
     border: 2px solid black;
     padding: 2em;
 }
