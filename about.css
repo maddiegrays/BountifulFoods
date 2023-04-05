@@ -30,9 +30,9 @@ header h1 {
 }
 
 div.motto {
-    font-size: 25px;
-    font-style: italic;
-    color: #D00000;
+    font-size: 20px;
+    font-style: bold;
+    color: #000000;
 
 }
 
@@ -160,11 +160,12 @@ li{
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 50px;
+    text-align: center;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 /**forecast**/
@@ -325,9 +326,9 @@ figcaption {
     text-align: center;
 }
 #us{
-    text-align: left;
+    text-align: center;
     line-height: 20px;
-    font-size:15px; 
+    font-size:20px; 
     padding: 10px;
 }
 
@@ -348,12 +349,12 @@ section.demographics {
 
 
 .events-back{
-    background-color:#465362; 
+    background-color:green; 
     max-width:300px; 
     display: inline-block;
     color:white; 
     padding:20px; 
-    border-radius:20px; 
+    border-radius:0px; 
     line-height: 20px;
     margin:10px; 
 }
@@ -606,7 +607,7 @@ input.button-1 {
 /************footer************/
 footer {
     color: white;
-    background-color: black;
+    background-color: rgb(201, 201, 201);
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
