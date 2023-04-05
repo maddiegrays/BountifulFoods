@@ -374,8 +374,14 @@ section.demographics {
     min-height: 20px;
 }
 
-.history-article {
-    padding: 20px;
+.about {
+    
+    font-size: 40px;
+    text-align: left;
+    margin: auto;
+    width: 90%;
+    border: 3px solid green;
+    padding: 10px;
 }
 
 img.city {
